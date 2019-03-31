@@ -1,0 +1,25 @@
+PODS:
+  - DHMoreApps (0.1.9):
+    - SDWebImage
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+
+DEPENDENCIES:
+  - DHMoreApps (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  DHMoreApps:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DHMoreApps: 6f34a759317f722d90427ef91064e0939514c11d
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+
+PODFILE CHECKSUM: 1acbb89a005e7ab7fc591dd4fff489feab29911c
+
+COCOAPODS: 1.5.3
