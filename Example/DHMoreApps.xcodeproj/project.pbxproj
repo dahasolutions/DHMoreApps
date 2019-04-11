@@ -211,7 +211,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DHMoreApps_Example/Pods-DHMoreApps_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DHMoreApps_Example/Pods-DHMoreApps_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DHMoreApps/DHMoreApps.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
@@ -224,7 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHMoreApps_Example/Pods-DHMoreApps_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DHMoreApps_Example/Pods-DHMoreApps_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE09D27929C1DCA618179EA6 /* [CP] Check Pods Manifest.lock */ = {

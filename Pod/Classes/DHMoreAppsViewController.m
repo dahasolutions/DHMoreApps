@@ -311,7 +311,9 @@
             for (int i = 0; i < MIN(2, screenshots.count); i++) {
                 NSString *urlString = screenshots[i];
                 NSURL *url = [NSURL URLWithString:urlString];
-                [[[SDWebImageManager sharedManager] imageDownloader] downloadImageWithURL:url options:SDWebImageDownloaderContinueInBackground progress:nil completed:^(UIImage *image, NSData * data, NSError *error, BOOL finished) {
+                [[[SDWebImageManager sharedManager] imageLoader] requestImageWithURL:url options:SDWebImageContinueInBackground context:nil progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
+
+                } completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, BOOL finished) {
                     if (image) {
                         if (image.size.width > image.size.height) {
                             if (i == 0) {

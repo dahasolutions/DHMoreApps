@@ -20,12 +20,6 @@
     
     DHMoreApps *moreAppsManager = [DHMoreApps sharedManager];
     moreAppsManager.closeButtonTitle = @"Hủy";
-
-    [moreAppsManager presentMoreAppsInViewController:self
-                                         developerId:@"916400739"
-                                     descriptionType:DHDescriptionTypeScreenshots
-                                          completion:nil];
-
     
     moreAppsManager.showActionButton = NO;
     moreAppsManager.showPrice = NO;
@@ -42,6 +36,10 @@
     moreAppsManager.didSelectAppBlock = ^(NSString *appId){
         NSLog(@"did select app id: %@", appId);
     };
+    [moreAppsManager presentMoreAppsInViewController:self
+                                         developerId:@"916400739"
+                                     descriptionType:DHDescriptionTypeScreenshots
+                                          completion:nil];
 }
 
 @end
