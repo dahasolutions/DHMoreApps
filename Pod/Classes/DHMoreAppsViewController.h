@@ -29,6 +29,7 @@ DHDescriptionType;
 @property (nonatomic, weak) id <DHMoreAppsViewControllerDelegate> delegate;
 @property (nonatomic) BOOL showPrice;
 @property (nonatomic) BOOL showActionButton;
+@property (nonatomic) NSString *closeButtonTitle;
 
 - (id)initWithDeveloperId:(NSString *)developerId
           descriptionType:(DHDescriptionType)description

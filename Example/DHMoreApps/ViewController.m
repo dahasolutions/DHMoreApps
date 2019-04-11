@@ -19,7 +19,8 @@
 - (IBAction)buttonPressed:(id)sender {
     
     DHMoreApps *moreAppsManager = [DHMoreApps sharedManager];
-    
+    moreAppsManager.closeButtonTitle = @"Hủy";
+
     [moreAppsManager presentMoreAppsInViewController:self
                                          developerId:@"916400739"
                                      descriptionType:DHDescriptionTypeScreenshots

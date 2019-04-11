@@ -71,7 +71,11 @@
     // Do any additional setup after loading the view.
     
     if (self.presentingViewController) {
-        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(buttonDonePressed:)];
+        if (_closeButtonTitle) {
+            self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle: _closeButtonTitle style: UIBarButtonItemStylePlain target:self action:@selector(buttonDonePressed:)];
+        } else {
+            self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(buttonDonePressed:)];
+        }
     }
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];

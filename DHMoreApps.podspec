@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DHMoreApps"
-  s.version          = "0.1.9"
+  s.version          = "0.1.10"
   s.summary          = "DHMoreApps presents a view controller similar to the App Store to show your apps."
   s.description      = <<-DESC
                        DHMoreApps is an iOS library created to present a view controller inside your application to show your developer page of apps. It is very similar to the App Store visual.

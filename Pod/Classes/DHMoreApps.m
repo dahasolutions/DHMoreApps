@@ -78,6 +78,7 @@
     moreAppsVC.title = _title;
     moreAppsVC.showActionButton = _showActionButton;
     moreAppsVC.showPrice = _showPrice;
+    moreAppsVC.closeButtonTitle = _closeButtonTitle;
 
     [viewController presentViewController:navController animated:YES completion:^{
         if (completion) {

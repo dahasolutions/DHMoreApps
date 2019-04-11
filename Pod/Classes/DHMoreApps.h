@@ -16,6 +16,7 @@ typedef void (^DHSelectBlock)(NSString *appId);
 @property (nonatomic, copy) DHSelectBlock didSelectAppBlock;
 @property (nonatomic) BOOL showActionButton, showPrice;
 @property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *closeButtonTitle;
 @property (nonatomic, strong) UIColor *naviTintColor;
 @property (nonatomic, strong) UIColor *naviBarTintColor;
 @property (nonatomic, strong) NSDictionary<NSAttributedStringKey, id> *naviTextAttr;
