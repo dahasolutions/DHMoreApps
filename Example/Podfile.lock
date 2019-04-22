@@ -1,9 +1,9 @@
 PODS:
   - DHMoreApps (0.1.10):
     - SDWebImage
-  - SDWebImage (5.0.0):
-    - SDWebImage/Core (= 5.0.0)
-  - SDWebImage/Core (5.0.0)
+  - SDWebImage (5.0.1):
+    - SDWebImage/Core (= 5.0.1)
+  - SDWebImage/Core (5.0.1)
 
 DEPENDENCIES:
   - DHMoreApps (from `../`)
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DHMoreApps: 94bf85da572d473e1fc6f8fd61cbf5e08082c9a2
-  SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
+  DHMoreApps: ebc92bacdfc0e379659d7808a6a7961d417bf736
+  SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
 
 PODFILE CHECKSUM: 1acbb89a005e7ab7fc591dd4fff489feab29911c
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.5.3
